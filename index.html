@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Gaming Trends 2026</title>
+    <style>
+        /* التنسيق الأساسي */
+        body { margin: 0; padding: 0; font-family: -apple-system, sans-serif; background: #f0f2f5; }
+        
+        /* محتوى التمويه (فيسبوك كيشوف هادا) */
+        #safe-view { padding: 40px 20px; color: #444; line-height: 1.6; max-width: 800px; margin: auto; }
+        
+        /* صفحة العرض الحقيقية (الزائر كيشوف هادي) */
+        #offer-view { 
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #ffffff; z-index: 9999; overflow-y: auto; 
+        }
+
+        .container { max-width: 480px; margin: auto; padding: 20px; text-align: center; }
+        .app-icon { width: 100px; height: 100px; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-top: 30px; }
+        h1 { font-size: 24px; color: #1c1e21; margin: 20px 0 10px; }
+        .tagline { color: #65676b; font-size: 16px; margin-bottom: 25px; }
+        
+        .reward-box { background: #e7f3ff; border: 1px dashed #1877f2; border-radius: 12px; padding: 15px; margin-bottom: 25px; }
+        .reward-text { color: #1877f2; font-weight: bold; font-size: 18px; }
+
+        .install-btn { 
+            display: block; background: #1a73e8; color: white; padding: 18px; 
+            border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 20px;
+            box-shadow: 0 4px 12px rgba(26,115,232,0.4); animation: bounce 2s infinite;
+        }
+
+        /* تعليقات فيسبوك وهمية */
+        .comments { text-align: left; margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px; }
+        .comment { display: flex; margin-bottom: 15px; font-size: 14px; }
+        .u-pic { width: 40px; height: 40px; border-radius: 50%; margin-right: 10px; }
+        .u-name { font-weight: bold; color: #385898; }
+
+        @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-10px);} 60% {transform: translateY(-5px);} }
+    </style>
+</head>
+<body>
+
+    <div id="safe-view">
+        <h1>The Evolution of Competitive Mobile Gaming</h1>
+        <p>In 2026, the mobile gaming industry has reached new heights. Developers are focusing on engagement metrics that provide real-world value to players. Through advanced telemetry and feedback loops, the ecosystem of "Play-and-Earn" is being analyzed by top economic research firms to ensure sustainable digital growth...</p>
+        <p>This report highlights how user retention is directly linked to the quality of interaction provided within Android ecosystems in the United States...</p>
+    </div>
+
+    <div id="offer-view">
+        <div class="container">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/8c/1e/3d8c1e2d-3d8e-1e2d-3d8e-1e2d3d8e1e2d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg" class="app-icon" alt="JustPlay">
+            <h1>JustPlay: Play & Earn</h1>
+            <p class="tagline">Join 10,000,000+ players earning real money today!</p>
+            
+            <div class="reward-box">
+                <span class="reward-text">🎁 Status: Eligible for $6.00 Credit</span>
+            </div>
+
+            <a href="https://feraveromonster.ink/sl/o18wq" class="install-btn">INSTALL & START EARNING</a>
+            
+            <p style="font-size: 12px; color: #999; margin-top: 15px;">*Available for Android users in the US only.</p>
+
+            <div class="comments">
+                <p style="font-weight: bold; color: #444;">Reviews from the Play Store:</p>
+                <div class="comment">
+                    <img src="https://i.pravatar.cc/100?u=1" class="u-pic">
+                    <div><span class="u-name">Jessica R.</span><br>Already cashed out $20 this week! Best gaming app ever.</div>
+                </div>
+                <div class="comment">
+                    <img src="https://i.pravatar.cc/100?u=2" class="u-pic">
+                    <div><span class="u-name">Mike Thompson</span><br>Legit app. I play while commuting and the payouts are fast.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // السحر هنا: تحويل الزائر بعد 2.5 ثانية
+        setTimeout(function() {
+            document.getElementById('offer-view').style.display = 'block';
+            document.getElementById('safe-view').style.display = 'none';
+        }, 2500);
+    </script>
+</body>
+</html>
